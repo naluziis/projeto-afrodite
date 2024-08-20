@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+
+header > h1{
+color: rgb(255, 255, 255);
+font-size: 40px;
+}
+
+
+#menu-header{
+    display: flex;
+    align-items: center;
+}
+
+#list-menu{
+    display: flex;
+    margin-right: 1rem;
+}
+
+.item-menu-header{
+    margin-right: 25px;
+}
+
+.item-menu-header > a:hover {
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.item-menu-header{
+    margin-right: 25px;
+}
+
+.item-menu-header > a:hover {
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.item-menu-header > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;}
+
+#btn-header{
+     display: flex;
+}
+
+ #btn-header > button{
+    padding: 8px;
+    background-color:transparent;
+    border: none;
+}
+    
+#btn-header > button > a{
+    color: white;
+     display: flex;
+     align-items: center;
+}
+    
+ #btn-header > button > a > img {
+     width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+#featured-products{
+    background: linear-gradient(180deg, #F4CEAF 8,33% rgba(244,200,175,0) 100%);
+    padding: 30px;
+    margin-left: 800px;
+}
+
+.products{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#featured-products{
+    background: linear-gradient(180deg, #F4CEAF 8,33% rgba(244,200,175,0) 100%);
+    padding: 30px;
+}
+
+
+
+#clients{
+    background-image: url(img/moda.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+
+
+ #clients span {
+    color: yellow;
+    font-weight: bold;
+ }
+
+
+
+ #clients > h2{
+    font-size: 35px;
+    color: white;
+ }
+
+ #clients > button{
+     width: 10rem;
+     background-color: transparent;
+     padding: 20px;
+     color: white;
+
+ }
+
+ .line{
+    margin: 0 auto;
+    width: 20%; 
+}
+
+#clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.clients-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clients-item > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.clients-item > h3{
+    font-size: 32px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+footer { 
+    padding: 13vh; 
+    background-color:rgb(255, 255, 255); 
+    text-align: center; 
+    
+}
+
+#contatos{
+    color: rgb(0, 0, 0);
+}
+
+footer  img { 
+    width: 3rem;
+    height: 3rem;
+    margin-top: -5rem; 
+}
+
+footer p { 
+    color: rgb(0, 0, 0);
+    font-size: 16px; 
+    margin-left: 70px;
+}
+
+.item-footer {
+    color: rgba(255, 255, 255, 0.5); 
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+.item-footer a { 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.item-footer a:hover{ 
+    color:#000000; 
+    transition: 0.8s; 
+}
+
